@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main-box
+{
+    width: 100%;
+    height: 100%;
+}
+.footer
+{
+    width: 100%;
+    height:100px;
+    background-color: white;
+}
+.b1
+{
+     width: 100%;
+     height: 50px;
+     background-color: #5ebb74;
+}
+.b1-inner
+{
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+.b1-inner-2
+{
+    float: right;
+    color: black;
+    font-weight: bold;
+}
+.b2{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;  
+}
+.cont1{
+    width: 100%;
+    height: 600px;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(/images/newhd.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    border:1px solid black;
+}
+.cont2{
+    width: 90%;
+    height:400px;
+    background-color: #5ebb74;
+    margin: auto;
+}
+.cont2-inner
+{
+   color: #a74b09;
+}
+.col
+{
+    width: 180px;
+    height: 180px;
+    padding: 30px;
+    margin: 10px;
+    border: 1px;
+    background-color: lightcyan;
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+.cont1-inner
+{
+    width: 500px;
+    height: 400px;
+    margin: 80px 80px;
+    background-color: #137a7c;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150px;
+}
+.cont3
+{
+    width: 100%;
+    height: 250px;
+    background-color: cornflowerblue;
+}
+.navso{
+    display: inline-flex;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.navso:hover
+{
+    background-color: white;
+    color: greenyellow;
+}
+h3
+{
+     margin-top: 10px;
+}
+p{
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+input[type=text]
+{
+    width: 250px;
+    height: 30px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+input[type=submit]
+{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.navso2
+{
+    display: inline-flex;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 2px;
+    height: 2px;
+    margin-left: 30px;
+}
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .logo2
+  {
+      text-align: center;
+    margin-top: 20px;
+  }
